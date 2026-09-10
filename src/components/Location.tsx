@@ -55,9 +55,9 @@ const Location: React.FC = () => {
       <div className="location-glass-container">
         {/* Header */}
         <div className="location-header animate-up">
-          <div className="location-badge">✦ Location ✦</div>
+          <div className="location-badge">{t("venuebadge")}</div>
           <h1 className="location-title">{t("venueheader1")}</h1>
-          <div className="location-subtitle">Where love meets elegance</div>
+          <div className="location-subtitle">{t("venuesubtitle")}</div>
           <div className="location-divider">
             <span></span>
             <i>⚘</i>
@@ -82,7 +82,7 @@ const Location: React.FC = () => {
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                 <circle cx="12" cy="10" r="3" />
               </svg>
-              <span>Google maps</span>
+              <span>{t("googlemaps")}</span>
             </div>
           </div>
 
